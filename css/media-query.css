@@ -1,0 +1,176 @@
+/* XL */
+
+@media (max-width:1399px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* LG */
+
+@media (max-width:1199px){
+    .container{
+        max-width: 960px;
+    }
+    .w-lg-2{
+        width: 50%;
+    }
+    .w-lg-3{
+        width: 33.33%;
+    }
+
+    /* chooses-us */
+
+    .chooses-us-inner .row .w-lg-2:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* offer */
+
+    .offer-inner .row .w-lg-3:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* team */
+
+    .team-inner .row .w-lg-2:first-child{
+        margin-bottom: 30px;
+    }
+}
+
+/* MD */
+
+@media (max-width:991px){
+    .container{
+        max-width: 720px;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+    /* HEADER */
+    header{
+        padding: 20px 0;
+    }
+    .toggle-manu{
+        display: block;
+    }
+    nav{
+        position: absolute; 
+        top:100%;
+        left: 0%;
+        right: 0;
+        background-color: #211c5c;
+        display: none;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li:last-child{
+        display: none;
+    }
+    nav ul li{
+        margin: 15px 0 15px 15px;
+    }
+    nav ul li a{
+        padding: 0;
+    }
+    /* search */
+    .search-img img{
+        margin-bottom: 30px;
+    }
+    /* valuation */
+    .our-valuation .row .w-md-2:first-child{
+        margin-bottom: 30px;
+    }
+    /* news */
+    .news-input{
+        width: 100%;
+    }
+
+    /* footer-itmes */
+
+    .footer-inner .row .w-md-2:first-child{
+        margin-bottom: 30px;
+    }
+}
+
+/* SM */
+
+@media (max-width:767px){
+    .container{
+        max-width: 540px;
+    }
+    .w-sm-1{
+        width: 100%;
+    }
+    .w-sm-2{
+        width: 50%;
+    }
+
+    /* offer */
+
+    .offer-inner .row .w-lg-3:first-child{
+        margin-bottom: 0;
+    }
+    .offer-inner .row .offer-items{
+        margin-bottom: 30px;
+    }
+}
+
+/* XS */
+
+@media (max-width:575px){
+    .container{
+        max-width: 100%;
+    }
+    .w-xs-1{
+        width: 100%;
+    }
+    .chooses-us-title h2, .offer-title h2 , .search-content h2 , .about-content h2 , .review-title h2 , .team-title h2 , .news-title h2{
+        font-size: 26px;
+    }
+    .chooses-us-title p , .offer-title p , .search-content p , .about-content p , .review-title p , .team-title p , .news-title p{
+        font-size: 14px;
+    }
+    /* banner */
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 14px;
+    }
+
+    /* chooses-us */
+
+    .chooses-us-inner .row .w-lg-2:first-child{
+        margin-bottom: 0;
+    }
+    .chooses-us-items{
+        margin-bottom: 30px;
+    }
+    /* valuation */
+    .our-valuation .row .w-md-2:first-child{
+        margin-bottom: 0;
+    }
+    .valuation-items{
+        margin-bottom: 30px;
+    }
+    /* team */
+
+    .team-inner .row .w-lg-2:first-child{
+        margin-bottom: 0;
+    }
+    .team-items{
+        margin-bottom: 30px;
+    }
+    /* footer */
+    .footer-itmes img{
+        width: 10%;
+    }
+    .footer-itmes h4{
+        font-size: 18px;
+    }
+}
